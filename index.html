@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="refresh" content="10; url=water.html">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: rgba(250, 249, 249, 0.8);
+        }
+        .box {
+            
+            background: rgb(82, 224, 146);
+            border-radius: 50%;
+            box-shadow: 0 0 99px rgb(47, 255, 0);
+            width: 500px;
+            height: 500px; 
+            animation: move 5s ease-in-out infinite;  
+        }
+        @keyframes move{
+            0%{
+                rotate: 30deg;
+                box-shadow: 0 0 88px rgb(240, 106, 16);
+            }
+            25%{
+                rotate: 90deg;
+                box-shadow: 0 0 88px rgb(244, 10, 10);
+
+            }
+            50%{
+                rotate: 170deg;
+                box-shadow: 0 0 88px rgb(98, 250, 22);
+
+            }
+            75%{
+                rotate: 270deg;
+                box-shadow: 0 0 88px rgb(21, 192, 240);
+
+            }
+            100%{
+                rotate: 360deg;
+                box-shadow: 0 0 88px rgb(226, 7, 208);
+
+            }
+        }
+        img{
+            box-shadow: 0 0 88px rgb(47, 255, 0);
+            border-radius: 60%;
+            background: transparent;
+            width: 500px;
+            height: 500px;
+            transform: scale(0.7);
+       
+            
+            animation: apple 5s ease-in-out infinite;
+        }
+        @keyframes apple{
+            0%{
+              
+                box-shadow: 0 0 88px rgb(240, 106, 16);
+            }
+            25%{
+               
+                box-shadow: 0 0 88px rgb(244, 10, 10);
+
+            }
+            50%{
+                
+                box-shadow: 0 0 88px rgb(98, 250, 22);
+
+            }
+            75%{
+               
+                box-shadow: 0 0 88px rgb(21, 192, 240);
+
+            }
+            100%{
+               
+                box-shadow: 0 0 88px rgb(226, 7, 208);
+
+            }
+        
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img src="Apple-logo.png" alt="apple logo">
+    </div>
+    
+</body>
+</html>
